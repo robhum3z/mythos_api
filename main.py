@@ -25,21 +25,29 @@ Never use em dashes, never use platitudes, never piss in people’s pockets.
 
 @app.post("/ask")
 async def ask(request: Request):
-    data = await request.json()
+    try:
+        data = await request.json()
+    except Exception as e:
+        return {"error": f"Invalid JSON: {str(e)}"}
+
+    # Accept both 'question' and 'prompt' keys
     user_prompt = data.get("question") or data.get("prompt") or ""
 
-    if not user_prompt.strip():
+    # Sanity check
+    if not user_prompt or not isinstance(user_prompt, str) or user_prompt.strip() == "":
         return {
-            "answer": "It appears there was no input provided. Please share your thoughts or questions, and I will respond with clarity and depth."
+            "answer": "It appears you have not entered any text. Please share your thoughts or questions, and I will respond with structured clarity and insight."
         }
 
-    completion = openai.chat.completions.create(
-        model="gpt-4o-mini",  # switch to gpt-5-mini when available
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt}
-        ]
-    )
-
-    answer = completion.choices[0].message.content
-    return {"answer": answer}
+    try:
+        completion = openai.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ]
+        )
+        answer = completion.choices[0].message.content
+        return {"answer": answer}
+    except Exception as e:
+        return {"error": f"OpenAI API error: {str(e)}"}
