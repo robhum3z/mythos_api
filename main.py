@@ -26,14 +26,20 @@ Never use em dashes, never use platitudes, never piss in people’s pockets.
 @app.post("/ask")
 async def ask(request: Request):
     data = await request.json()
-    user_prompt = data.get("prompt", "")
+    user_prompt = data.get("question") or data.get("prompt") or ""
+
+    if not user_prompt.strip():
+        return {
+            "answer": "It appears there was no input provided. Please share your thoughts or questions, and I will respond with clarity and depth."
+        }
 
     completion = openai.chat.completions.create(
-        model="gpt-4o-mini",     # change to gpt-5-mini when available
+        model="gpt-4o-mini",  # switch to gpt-5-mini when available
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
         ]
     )
+
     answer = completion.choices[0].message.content
     return {"answer": answer}
