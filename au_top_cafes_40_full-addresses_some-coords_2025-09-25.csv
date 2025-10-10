@@ -1,0 +1,36 @@
+name,address_line,suburb,city,state,country,latitude,longitude,subscription_status,owner_user_id,approval_status,id,created_date,updated_date,created_by_id,created_by,is_sample
+Proud Mary,172 Oxford St,Collingwood,Melbourne,VIC,Australia,-37.802362,144.985354,active,venue2,approved,cafe-001,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Patricia Coffee Brewers,Rear 493–495 Little Bourke St,Melbourne,Melbourne,VIC,Australia,,,active,venue4,approved,cafe-002,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Seven Seeds,106–114 Berkeley St,Carlton,Melbourne,VIC,Australia,,,active,venue3,approved,cafe-003,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Higher Ground,650 Little Bourke St,Melbourne,Melbourne,VIC,Australia,-37.815857,144.953045,active,venue5,approved,cafe-004,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+ST. ALi,12–18 Yarra Pl,South Melbourne,Melbourne,VIC,Australia,,,active,venue1,approved,cafe-005,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Coffee Anthology,155 Charlotte St,Brisbane City,Brisbane,QLD,Australia,,,active,68cfa27251ac708b78da759f,approved,cafe-006,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+The Gunshop Cafe,53 Mollison St,West End,Brisbane,QLD,Australia,,,active,venue2,approved,cafe-007,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Morning After,57 Vulture St,West End,Brisbane,QLD,Australia,,,active,venue4,approved,cafe-008,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Nodo Newstead,1 Ella St,Newstead,Brisbane,QLD,Australia,,,active,venue3,approved,cafe-009,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Felix For Goodness,50 Burnett Ln,Brisbane City,Brisbane,QLD,Australia,,,active,venue5,approved,cafe-010,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Hylin,178 Railway Pde,West Leederville,Perth,WA,Australia,,,active,venue1,approved,cafe-011,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Finlay & Sons,917 Beaufort St,Inglewood,Perth,WA,Australia,,,active,68cfa27251ac708b78da759f,approved,cafe-012,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+La Veen Coffee,90 King St,Perth,Perth,WA,Australia,,,active,venue2,approved,cafe-013,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Telegram Coffee,"Shop 7, State Buildings, 1 Cathedral Ave",Perth,Perth,WA,Australia,,,active,venue4,approved,cafe-014,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Gordon St Garage,16 Gordon St,West Perth,Perth,WA,Australia,,,active,venue3,approved,cafe-015,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Elementary Coffee,9–17 Young St,Adelaide,Adelaide,SA,Australia,-34.92655,138.59597,active,venue5,approved,cafe-016,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Exchange Specialty Coffee,"Shops 1–3, 12–18 Vardon Ave",Adelaide,Adelaide,SA,Australia,-34.923,138.6105,active,venue1,approved,cafe-017,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Hey Jupiter,11 Ebenezer Pl,Adelaide,Adelaide,SA,Australia,-34.92303,138.60922,active,68cfa27251ac708b78da759f,approved,cafe-018,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+My Kingdom for a Horse,191 Wright St,Adelaide,Adelaide,SA,Australia,-34.9313,138.5969,active,venue2,approved,cafe-019,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Monday's Coffee Store,7/38 Gawler Pl,Adelaide,Adelaide,SA,Australia,-34.9235,138.6017,active,venue4,approved,cafe-020,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Pilgrim Coffee,48–50 Argyle St,Hobart,Hobart,TAS,Australia,,,active,venue3,approved,cafe-021,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Dandy Lane,"Shop 10, 138 Collins St",Hobart,Hobart,TAS,Australia,,,active,venue5,approved,cafe-022,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Jackman & McRoss,57 Hampden Rd,Battery Point,Hobart,TAS,Australia,,,active,venue1,approved,cafe-023,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Pigeon Hole,93 Goulburn St,West Hobart,Hobart,TAS,Australia,,,active,68cfa27251ac708b78da759f,approved,cafe-024,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Hamlet,40 Molle St,Hobart,Hobart,TAS,Australia,,,active,venue2,approved,cafe-025,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+The Cupping Room,1/13 University Ave,Canberra,Canberra,ACT,Australia,,,active,venue4,approved,cafe-026,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Ona Coffee House,68 Wollongong St,Fyshwick,Canberra,ACT,Australia,,,active,venue3,approved,cafe-027,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Silo Bakery & Cafe,36 Giles St,Kingston,Canberra,ACT,Australia,,,active,venue5,approved,cafe-028,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Two Before Ten Aranda,68 Bandjalong Cres,Aranda,Canberra,ACT,Australia,,,active,venue1,approved,cafe-029,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Sweet Bones (Scullin),Shop 2/27 Scullin Pl,Scullin,Canberra,ACT,Australia,,,active,68cfa27251ac708b78da759f,approved,cafe-030,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Laneway Specialty Coffee,4/1 Vickers St,Parap,Darwin,NT,Australia,,,active,venue2,approved,cafe-031,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Kopi Stop,1/23 Cavenagh St,Darwin City,Darwin,NT,Australia,,,active,venue4,approved,cafe-032,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Eva’s Botanic Gardens Cafe,George Brown Darwin Botanic Gardens,The Gardens,Darwin,NT,Australia,,,active,venue3,approved,cafe-033,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+Boatshed Coffee House,56 Marina Blvd,Larrakeyah,Darwin,NT,Australia,,,active,venue5,approved,cafe-034,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
+De la Plage,51 East Point Rd,Fannie Bay,Darwin,NT,Australia,,,active,venue1,approved,cafe-035,2025-09-25,2025-09-25,68cfa27251ac708b78da759f,robhum3z@icloud.com,False
